@@ -45,5 +45,4 @@ print("Merged shape:", altos_all.shape)
 print("Date range:", altos_all["date"].min().date(), "→", altos_all["date"].max().date())
 altos_all.head()
 
-
 altos_all.to_csv("altos_merged_all.csv", index=False)
